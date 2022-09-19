@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "media",
+        "2": "technical",
+        "3": "social network",
+        "4": "customer support"
+    },
+    "description": "Plugin responsável por permitir que seja mostrado uma mensagem no momento que o elemento é clicado ou mesmo quando ele sofre um houver ou ser clicado, podendo ser usado em varias situações, para demonstração de informações.\n\nNele você personalizar : \n\n- Posição da mensagem; \n- Tamanho da fonte do Titulo;\n- Tamanho da fonte do Conteúdo;\n- Alinhar a mensagem;\n- Cor do cabeçalho;\n- Cor do conteúdo;\n- Cor da Sete;\n- A ação a ser realizada (hover/click)\n- Borda (Sim/Não)\n\nExcelente plugin podendo ser usado para diversas situações.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1663349024437x358462709416892860/images.png",
+    "license": "open_source",
+    "name": "Show Tooltip",
+    "plugin_instructions": "Segue os passos para uso \n\n1 - instale o plugin\n2 - Com ele instalado, vai na sua aba de design e coloque o nome do elemento o qual sera usado\n\nExistem outras opções a serem preenchidas, porém são opcionais, qual se deixar de preencher as mesmas viram no padrão."
+}

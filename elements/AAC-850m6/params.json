@@ -27,6 +27,7 @@
         },
         "AAF": {
             "caption": "Titulo",
+            "default_val": "Titulo",
             "doc": "Insira o titulo a ser apresentado",
             "editor": "DynamicValue",
             "long_text": false,
@@ -46,6 +47,7 @@
         },
         "AAK": {
             "caption": "Mensagem",
+            "default_val": "mensagem",
             "doc": "Insira a mensagem a ser apresentado",
             "editor": "DynamicValue",
             "name": "mensagem",
@@ -66,7 +68,7 @@
             "caption": "Cor Cabeçalho",
             "doc": "Insira a cor do cabeçalho",
             "editor": "Color",
-            "in_style": true,
+            "in_style": false,
             "name": "cor_cabecalho",
             "optional": true,
             "rank": 7
@@ -75,8 +77,9 @@
             "caption": "Cor Conteúdo",
             "doc": "Insira a cor do Conteúdo",
             "editor": "Color",
-            "in_style": true,
+            "in_style": false,
             "name": "cor_conteudo",
+            "optional": true,
             "rank": 8
         },
         "AAT": {
@@ -93,8 +96,9 @@
             "caption": "Cor da seta",
             "doc": "Escolha a cor da seta",
             "editor": "Color",
-            "in_style": true,
+            "in_style": false,
             "name": "cor_seta",
+            "optional": true,
             "rank": 10,
             "value": "text"
         },
@@ -104,6 +108,7 @@
             "doc": "Escolha o alinhamento da mensagem",
             "editor": "Dropdown",
             "name": "posicao_mensagem",
+            "optional": true,
             "options": "Esquerda,Direita,Centro",
             "rank": 6
         },

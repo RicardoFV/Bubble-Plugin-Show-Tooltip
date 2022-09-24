@@ -127,8 +127,10 @@
     "property_applications": {
         "Background": false,
         "Border": false,
-        "Font": false,
+        "BoxShadow": true,
+        "Font": true,
         "MinWidth": false,
         "Padding": false
-    }
+    },
+    "support_autobinding": false
 }

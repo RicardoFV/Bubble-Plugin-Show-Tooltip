@@ -58,35 +58,39 @@ function(instance, properties, context) {
     	let style = $(`<style> 
 		.popover{
 			font-size:${properties.tamanho_fonte_corpo}px;
-			line-height: 0.1;
+			line-height: 1.3;
 			text-align: ${posicao_mensagem};
 			border-radius: .5rem;
-			border: ${borda}
+			border: ${borda};
 		}
 		.popover-header {
 			font-size:${properties.tamanho_fonte_titulo}px;
 			background-color:${properties.cor_cabecalho}
 		}
 		.popover-body {
+			padding: 0.7rem 0.7rem;
 			background-color:${properties.cor_conteudo}
 		}
 		.bs-popover-auto[data-popper-placement^=${posicao_css}]>.popover-arrow::before,
 		.bs-popover-${posicao_css}>.popover-arrow::after {
     		border-${posicao}-color: ${properties.cor_seta};
 		}
+		
 	</style>`)
-    
+      
     	// insere o estilo
     	$(style).appendTo('head')
 		// cria as options
     	let options = {
-    	    title :properties.titulo , 
+            html : true,
+    	    title :properties.titulo, 
         	content : properties.mensagem,
-        	placement : posicao 
+        	placement : posicao,     
     	}
-    
+    	
     	// insere no elemento o que foi configurado como ação
 		let popover = new bootstrap.Popover(elemento, options)
+        
     	// seleciona a ação que sera feita
     	switch(properties.acao){
         	case "click": 
@@ -102,7 +106,7 @@ function(instance, properties, context) {
         	default :
         		// aparece a mensagem quando o mouse é passado em cima do elemento
     			elemento.addEventListener('mouseover', function(){
-        		popover.show()    
+        			popover.show()
         		})
     			// retira a mensagem quando o mouse é retira de cima do elemento
     			elemento.addEventListener('mouseleave', function(){

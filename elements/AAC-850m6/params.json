@@ -1,5 +1,8 @@
 {
+    "add_hover_pressed": true,
     "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
     "category": "visual elements",
     "default_dim": {
         "height": 20,
@@ -125,12 +128,13 @@
     },
     "icon": "ion-chatbox-working",
     "property_applications": {
-        "Background": false,
-        "Border": false,
+        "Background": true,
+        "Border": true,
         "BoxShadow": true,
         "Font": true,
-        "MinWidth": false,
-        "Padding": false
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
     },
     "support_autobinding": false
 }

@@ -11,5 +11,6 @@
     "image": "//s3.amazonaws.com/appforest_uf/f1663349024437x358462709416892860/images.png",
     "license": "open_source",
     "name": "Show Tooltip",
-    "plugin_instructions": "Segue os passos para uso \n\n1 - instale o plugin\n2 - Com ele instalado, vai na sua aba de design e coloque o ID do elemento o qual sera usado\n\nExistem outras opções a serem preenchidas, porém são opcionais, qual se deixar de preencher as mesmas viram no padrão.\n\nObervação\n\n- Caso o Elemento ID não seja informado ou esteja incorreto, o plugin em si não vai apresentar nenhuma mensagem, sendo necessário a informação de forma correta do Elemento ID. "
+    "plugin_instructions": "Segue os passos para uso \n\n1 - instale o plugin\n2 - Com ele instalado, vai na sua aba de design e coloque o ID do elemento o qual sera usado\n\nExistem outras opções a serem preenchidas, porém são opcionais, qual se deixar de preencher as mesmas viram no padrão.\n\nObervação\n\n- Caso o Elemento ID não seja informado ou esteja incorreto, o plugin em si não vai apresentar nenhuma mensagem, sendo necessário a informação de forma correta do Elemento ID. ",
+    "sa_node_version": 18
 }
